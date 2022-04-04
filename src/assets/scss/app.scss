@@ -1,0 +1,72 @@
+@import "./main/reset.scss";
+@import "./main/vars.scss";
+@import "./main/travel.scss";
+@import "./main/adaptive.scss";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+html{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    background: $white-color;
+}
+body{
+    background-image: url(../imgs/Decore.png);
+    background-repeat: no-repeat;
+    background-position: top right;        
+}
+.header{      
+    &__conteiner{
+        max-width: 1190px;
+        margin: 0 auto;
+        padding: 47px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+    }       
+    &__logo{
+        margin-right: 222px;
+    }
+    &__btn{
+        font-family: 'Google Sans';
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        padding: 9px 21px 9px 22px;
+        margin-right: 42px;
+        background: #FFF1DA;
+        border: 1px solid black;
+    }
+    &__select{
+        border: none;
+        text-align: center;        
+        font-family: 'Google Sans';        
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        color: $text-color;
+        background: #FFF1DA;
+    }    
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;    
+    
+    &__link{
+        text-decoration: none;
+        font-family: 'Google Sans';
+        margin-right: 62px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        color: $text-color;    
+    }
+    
+}

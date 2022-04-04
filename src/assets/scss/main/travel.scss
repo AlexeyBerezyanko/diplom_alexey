@@ -1,0 +1,85 @@
+@import "../main/vars.scss";
+
+.main-conteiner{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.travel{
+    width: 51%;
+    position: relative;
+    
+
+    &__text{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: $decorate-color;
+        margin-top: 130px;
+        margin-bottom: 24px;
+    }
+    &__title{
+        font-family: 'Volkhov';    
+        font-weight: 700;
+        font-size: 84px;
+        line-height: 89px;
+        letter-spacing: -0.04em;
+        color: #181E4B;
+        width: 86%;
+        z-index: 2;
+        margin-bottom: 30px;
+       
+    }
+    &__decore{
+        position: absolute;
+        top: 125px;
+        left: 217px;
+        z-index: 0;
+    
+    }
+    &__description{
+        color: $description-color;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        width: 62%;
+        margin-bottom: 34px;
+    }
+    &__btn{
+        color: $white-color;
+        background: #F1A501;
+        box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+        border-radius: 10px;
+        padding: 19px 26px 18px 27px;
+        border: none;
+        margin-right: 35px;
+    }
+    &__demo{
+        display: flex;
+        flex-wrap: wrap;        
+        align-items: center;        
+    }
+    &__play{
+        border: none;
+        background: #DF6951;
+        box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;       
+    }
+    &__play-demo{
+        margin-left: 21px;    
+    }
+
+}
+.pictures{   
+    position: relative;
+        
+    &__girl{
+        position: absolute;
+        bottom: -116px;
+        left: 390px;
+    }
+}
