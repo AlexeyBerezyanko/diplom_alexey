@@ -2,6 +2,7 @@
 @import "./main/vars.scss";
 @import "./main/travel.scss";
 @import "./main/adaptive.scss";
+@import "../scss/components/services.scss";
 *{
     box-sizing: border-box;
     padding: 0;
@@ -16,10 +17,13 @@ html{
     font-size: 16px;
     background: $white-color;
 }
-body{
+.decore-block{
     background-image: url(../imgs/Decore.png);
     background-repeat: no-repeat;
-    background-position: top right;        
+    background-position: right top;
+    background-size: 60em 60em;
+    padding-bottom: 145px;
+                       
 }
 .header{      
     &__conteiner{
@@ -29,7 +33,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        position: relative;
+        position: relative;    
     }       
     &__logo{
         margin-right: 222px;
@@ -66,7 +70,9 @@ body{
         font-weight: 400;
         font-size: 17px;
         line-height: 22px;
-        color: $text-color;    
+        color: $text-color;
+            
     }
     
 }
+

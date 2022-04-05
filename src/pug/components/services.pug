@@ -1,0 +1,27 @@
+include ../mixins/services-block.pug
+
+p.subtitle CATEGORY
+h2.subtitle-title We Offer Best Services
+    img(src="./assets/imgs/stars.svg", alt="stars").subtitle__img        
+section.category
+    +services-block({
+        img:'./assets/imgs/services1.png',
+        title:'Calculated Weather',
+        description:'Built Wicket longer admire do barton vanity itself do in it.'
+    })
+    +services-block({
+        img:'./assets/imgs/services2.jpg',
+        title:'Best Flights',
+        description:'Engrossed listening. Park gate sell they west hard for the.'        
+    })
+    img(src="./assets/imgs/service-decorate.svg", alt="service-decore").category__img  
+    +services-block({
+        img:'./assets/imgs/services3.svg',
+        title:'Local Events',
+        description:'Barton vanity itself do in it. Preferd to men it engrossed listening. '
+    })
+    +services-block({
+        img:'./assets/imgs/services4.svg',
+        title:'Customization',
+        description:'We deliver outsourcedaviation services for military customers'
+    })
