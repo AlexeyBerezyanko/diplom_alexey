@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
     align-items: center;
     position: relative;
@@ -12,10 +13,8 @@
         position: absolute;
         left: 287px;
         top: 220px;
-        z-index: -3;
-                
+        z-index: -3;                
     }
-
 }
 .subtitle{
     font-family: 'Poppins';
@@ -47,8 +46,7 @@
 .services-block{
     width: 19%;       
     text-align: center;
-    position: relative;
-       
+    position: relative;       
        
     &__title{
         font-family: 'Open Sans';
