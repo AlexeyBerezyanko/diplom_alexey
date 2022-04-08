@@ -1,0 +1,25 @@
+include ../mixins/destinations-block.pug
+
+p.subtitle Top Selling
+h2.subtitle-title Top Destinations
+section.destinations
+    +destinations-block({
+        img:'./assets/imgs/rome.png',
+        city:'Rome, Italty',
+        price:'$5,42k',
+        trip:'10 Days Trip'
+    })
+    +destinations-block({
+        img:'./assets/imgs/london.png',
+        city:'London, UK',
+        price:'$4.2k',
+        trip:'12 Days Trip'
+    })
+    +destinations-block({
+        img:'./assets/imgs/europe.png',
+        city:'Full Europe',
+        price:'$15k',
+        trip:'28 Days Trip'
+    })
+    .destinations__decore
+        img(src="./assets/imgs/line.png", alt="line").destinations__img

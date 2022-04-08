@@ -2,7 +2,9 @@
 @import "./main/vars.scss";
 @import "./main/travel.scss";
 @import "./main/adaptive.scss";
-@import "../scss/components/services.scss";
+@import "./components/services.scss";
+@import "./components/destinations.scss";
+@import "./components/book.scss";
 *{
     box-sizing: border-box;
     padding: 0;
@@ -45,7 +47,7 @@ html{
         line-height: 22px;
         padding: 9px 21px 9px 22px;
         margin-right: 42px;
-        background: #FFF1DA;
+        background: rgba(0,0,0,0.0);
         border: 1px solid black;
     }
     &__select{
@@ -56,7 +58,7 @@ html{
         font-size: 17px;
         line-height: 22px;
         color: $text-color;
-        background: #FFF1DA;
+        background: rgba(0,0,0,0.0);
     }    
 }
 .menu{
@@ -71,8 +73,7 @@ html{
         font-size: 17px;
         line-height: 22px;
         color: $text-color;
-            
-    }
-    
+        cursor: pointer;            
+    }    
 }
 

@@ -1,0 +1,6 @@
+mixin book-block(args={})
+    .book-block
+        img(src=args.img, alt="book").book-block__img
+        .book__choose
+            h3.book-block__title=args.title
+            p.book-block__description=args.description

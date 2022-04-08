@@ -1,0 +1,52 @@
+include ../mixins/book-block.pug
+.book
+    .book__text
+        p.book-subtitle Easy and Fast
+        h2.book-subtitle-title Book your next trip in 3 easy steps
+        +book-block({
+            img:'./assets/imgs/book-1.png',
+            title:'Choose Destination',
+            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.'
+        })
+        +book-block({
+            img:'./assets/imgs/book-2.png',
+            title:'Make Payment',
+            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.',
+        })
+        +book-block({
+            img:'./assets/imgs/book-3.png',
+            title:'Reach Airport on Selected Date',
+            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.'
+        })
+    .book__pictyre
+        img(src="./assets/imgs/greece.jpg", alt="greece").book__img
+        h4.book__greece Trip To Greece
+        .book__brone
+            p.book__data 14-29 June
+            p.book__robbin by Robbin joseph
+        .book__navigate
+            button.book__btn
+                img(src="./assets/imgs/list.png", alt="list").book__list
+            button.book__btn
+                img(src="./assets/imgs/book-4.png", alt="book").book__img-book
+            button.book__btn
+                img(src="./assets/imgs/select.png", alt="select").book__select
+        .book__people
+            img(src="./assets/imgs/tower.png", alt="tower").book__tower
+            p.book__going 24 people going
+            button.book__like
+                img(src="./assets/imgs/like.png", alt="like").book__img-like
+            .book__trip
+                img(src="./assets/imgs/hotel.png", alt="hotel").book__hotel
+                .book__roome-text
+                    p.book__ongoing Ongoing
+                    h3.book__title-trip Trip to rome
+                    .book__persent
+                        p.book__completed 40%
+                        span.book__completed-text completed
+                    img(src="./assets/imgs/persent.png", alt="persent").book__img-persent
+                                           
+                
+            //img(src="./assets/imgs/ongoing.png", alt="ongoing").book__ongoing 
+
+        

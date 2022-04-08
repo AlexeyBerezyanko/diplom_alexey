@@ -1,0 +1,8 @@
+mixin destinations-block(args={})
+    .destinations-block
+        img(src=args.img, alt="img").destinations-block__img
+        .destinations-block__text            
+            .destinations-block__location
+                p.destinations-block__city=args.city
+                p.destinations-block__price=args.price
+            p.destinations-block__trip=args.trip

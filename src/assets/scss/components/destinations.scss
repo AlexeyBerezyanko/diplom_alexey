@@ -1,0 +1,74 @@
+@import "../main/vars.scss";
+.destinations{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1130px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 186px;
+    
+    &__img{
+        position: absolute;
+        right: -55px;
+        top: 140px;
+        z-index: -2;
+        
+    }
+}
+.destinations-block{
+    width: 33%;
+    position: relative;          
+    
+    &__img{
+        max-width: 120%;
+        
+    }
+    &__text{
+        position: absolute;
+        left: 75px;
+        bottom: 169px;
+        background: #FFFFFF;
+        border-radius: 0px 0px 24px 24px;
+        width: 80%;
+        padding-left: 19px;
+        padding-top: 27px;
+        padding-bottom: 42px;
+        backdrop-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+        
+    }
+    &__location{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__city{    
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: $description-color;
+        margin-right: 120px;
+        margin-bottom: 19px;
+        
+    }
+    &__price{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: $description-color;
+    }
+    &__trip{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 124.5%;
+        color: $description-color;
+    }
+    &__trip::before{
+        content: '\27A4';
+        display: inline-block;
+        transform: skew(45deg, -45deg);
+        margin-right: 14px;       
+    }    
+}
