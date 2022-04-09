@@ -76,6 +76,17 @@ html{
         cursor: pointer;            
     }    
 }
+//1000px-1140px
+@media (min-width:1000px) and (max-width:1139.8px){
+    .destinations-block__text{
+        left: 57px;
+        width: 85%;
+    }
+    .travel__girl{
+        bottom: 5px;
+        left: 467px;
+    }
+}
 //925px-1200px
 @media (min-width:925px) and (max-width:1199.7px){
     .header__logo{
@@ -96,16 +107,23 @@ html{
         margin-right: 22px;    
     }
     .pictures__girl{
-        bottom: -107px;
-        left: 176px;
-        max-width: 85%;
+        bottom: 30px;
+        left: 419px;
+        max-width: 100%;
     }
     .decore-block{
-        background-size: 35em 60em;
+        background-size: 35em 50em;
+    }
+    .destinations__img{
+        display: none;
     }
     .travel__decore{
         left: 166px;
         max-width: 70%;
+    }
+    .travel__girl{
+        bottom: 50px;
+        left: 370px;
     }
     .services-block{
         width: 25%;
@@ -114,11 +132,11 @@ html{
         left: 228px;
     }
     .destinations-block__text{
-        left: 60px;
+        left: 58px;
         bottom: 137px;
-        width: 81%;
+        width: 82%;
         padding-left: 16px;
-    }
+    }    
     .destinations-block__city{
         margin-right: 80px;
     }
@@ -127,6 +145,23 @@ html{
     }
     .book{
         justify-content: space-evenly;
+    }
+    .book__btn{
+        margin-right: 5px;
+    }
+    .book__trip{
+        right: -46px;
+    }
+}
+//807px-925px
+@media (min-width:807px) and (max-width:924.7px){
+    .travel__girl{
+        bottom: -16px;
+        left: 335px;
+        max-width: 106%;
+    }
+    .decore-block{
+        background-size: 32em 44em;
     }
 }
 //680px-925px
@@ -159,10 +194,10 @@ html{
     .travel__play-demo{
         margin-left: 13px;
     }
-    .pictures__girl{
-        bottom: 35px;
-        left: 155px;
-        max-width: 80%;
+    .travel__girl{
+        bottom: 52px;
+        left: 267px;
+        max-width: 105%;
     }
     .decore-block{
         background-size: 26em 50em;        
@@ -181,16 +216,23 @@ html{
         font-size: 42px;
     }
     .services-block{
-        width: 20%;
+        width: 48%;
+        margin-bottom: 71px;
+    }
+    .services-block:hover{
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        border-radius: 36px;
     }
     .subtitle__img{
         width: 16%;
         right: 15px;
     }
     .category__img{
-        width: 12%;
-        left: 160px;
-        top: 245px;
+        display: none;
+        //width: 15%;
+        //left: 330px;
+        //top: 218px;
     }
     .destinations{
         flex-direction: column;
@@ -204,24 +246,28 @@ html{
         width: 169%;
     }
     .destinations__img{
-        right: 118px;
-        top: 1458px;
+        display: none;        
     }
     .book__text{
         max-width: 78%;
     }    
 }
+//466px-680px
+@media (min-width:466px) and (max-width:679.8px){
+    
+}
 //320px-680px
 @media (min-width:320px) and (max-width:679.7px){
     .travel__text{
-        font-size: 6px;
+        font-size: 12px;
         margin-bottom: 6px;
     }
     .header__logo{
         margin-bottom: 9px;
     }
-    .header__conteiner{
-        padding: 14px 10px;
+    .header__conteiner{        
+        flex-direction: column;
+        align-items: flex-start;
     }    
     .menu{
         flex-direction: column;
@@ -230,43 +276,54 @@ html{
         margin-bottom: 5px;
     }
     .travel__title{
-        font-size: 15px;
+        font-size: 28px;
         line-height: 35px;
         width: 70%;
     }
+    .travel{
+        margin: 0 auto;
+    }
     .travel__description{
-        font-size: 7px;
-        line-height: 17px;
-        width: 49%;
+        font-size: 10px;
+        line-height: 14px;
+        width: 62%;
+    }   
+    .travel__play{
+        width: 49px;
+        height: 49px;
+        margin-bottom: 13px;
+    }  
+    .travel__girl{
+        display: none;
+    }
+    .travel__demo{
+        flex-direction: column;
+        align-items: flex-start;
     }
     .travel__btn{
         font-size: 8px;
         margin-bottom: 9px;
+        margin-right: 42px;
     }
     .travel__play-demo{
         margin-left: 7px;
+        font-size: 11px;
     }
     .decore-block{
-        background-size: 14em 50em;
+        background-size: 20em 52em;
         padding-bottom: 100px;    
     }
     .travel__decore{
         top: 58px;
         left: 35px;
         width: 43%;
-    } 
-    .pictures__girl{
-        bottom: 115px;
-        left: 23px;
-    }
+    }     
     .subtitle-title{
         font-size: 30px;
         line-height: 30px;
     }
     .subtitle__img{
-        width: 19%;
-        right: 26px;
-        bottom: -48px;
+        display: none;
     }
     .category{
         flex-direction: column;
@@ -291,14 +348,18 @@ html{
         flex-direction: column;
     }
     .destinations-block{
-        width: 80%;
+        width: 100%;
     }
     .destinations-block__img{
-        width: 128%;
+        width: 100%;
     }
     .destinations-block__text{
         left: 51px;
         bottom: 110px;
+        width: 80%;
+        padding-left: 32px;
+        padding-top: 35px;
+        padding-bottom: 54px;
     }
     .destinations-block__city{
         font-size: 14px;
@@ -308,9 +369,7 @@ html{
         font-size: 11px;
     }
     .destinations__img{
-        right: 7px;
-        top: 928px;
-        width: 27%;    
+       display: none;  
     }
     .book-subtitle-title{
         font-size: 23px;

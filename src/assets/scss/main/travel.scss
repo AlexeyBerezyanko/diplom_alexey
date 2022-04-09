@@ -8,7 +8,12 @@
 .travel{
     width: 51%;
     position: relative;
-    
+
+    &__girl{
+        position: absolute;
+        bottom: -9px;
+        left: 490px;        
+    }   
 
     &__text{
         font-weight: 700;
@@ -28,8 +33,10 @@
         color: #181E4B;
         width: 86%;
         z-index: 2;
-        margin-bottom: 30px;
-       
+        margin-bottom: 30px;       
+    }
+    &__content{
+        position: relative;
     }
     &__decore{
         position: absolute;
@@ -72,15 +79,5 @@
     &__play-demo{
         margin-left: 21px;
            
-    }
-
-}
-.pictures{   
-    position: relative;
-
-    &__girl{
-        position: absolute;
-        bottom: -116px;
-        left: 390px;        
     }
 }
