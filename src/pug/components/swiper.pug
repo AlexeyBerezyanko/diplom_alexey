@@ -1,0 +1,26 @@
+include ../mixins/swiper-block.pug
+.about
+    .about__text
+        p.about__subtitle Testimonials
+        h2.about__title What people say about Us.
+    .slider
+        .swiper
+            .swiper-wrapper
+                .swiper-slide
+                    +swiper-block({
+                        img:'./assets/imgs/photo.png',
+                        description:'“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”',
+                        name:'Mike taylor',
+                        city:'Lahore, Pakistan'
+                    })
+                    +swiper-block({
+                        img:'./assets/imgs/photo.png',
+                        description:'“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”',
+                        name:'Chris Thomas',
+                        city:'CEO of Red Button'
+                    })
+            .swiper-pagination
+            .swiper-button-prev
+            .swiper-button-next
+
+
