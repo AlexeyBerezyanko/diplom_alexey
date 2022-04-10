@@ -27,6 +27,14 @@
     }
     &__label{
         padding-top: 74px;
+        position: relative;
+    }
+    &__label::before{
+        content: '\2709';
+        position: absolute;
+        left: 20px;
+        bottom: 104px;
+
     }
     &__input{
         padding: 25px 166px 25px 66px;

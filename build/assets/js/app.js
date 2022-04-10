@@ -8,12 +8,7 @@ const swaper = new Swiper('.swiper',{
         el: '.swiper-pagination',
         clickable: true,
     },
-    direction: 'vertical',
-    
-    pagination: {
-        el: '.swiper-pagination',
-    },
+    direction: 'vertical',   
       
-    //slidesPerView: 3,
     spaceBetween: 100,
 })

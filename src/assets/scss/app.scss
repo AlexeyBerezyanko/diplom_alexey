@@ -1,7 +1,6 @@
 @import "./main/reset.scss";
 @import "./main/vars.scss";
 @import "./main/travel.scss";
-@import "./main/adaptive.scss";
 @import "./components/services.scss";
 @import "./components/destinations.scss";
 @import "./components/book.scss";
@@ -194,6 +193,9 @@ html{
         right: -6px;
         top: -13px;
     }
+    .subtitle__img{
+        display: none;
+    }
 }
 //807px-925px
 @media (min-width:807px) and (max-width:924.7px){
@@ -267,14 +269,10 @@ html{
         border-radius: 36px;
     }
     .subtitle__img{
-        width: 16%;
-        right: 15px;
+        display: none;
     }
     .category__img{
-        display: none;
-        //width: 15%;
-        //left: 330px;
-        //top: 218px;
+        display: none;        
     }
     .destinations{
         flex-direction: column;
@@ -304,9 +302,7 @@ html{
         max-width: 25%;
     }
     .about .swiper{
-        width: 77%;
-        margin-right: 15px;
-        
+        width: 75%;    
     }
     .subscribe__decore{
         display: none;
@@ -445,9 +441,7 @@ html{
         margin-bottom: 30px;
     }
     .category__img{
-        left: 9px;
-        top: 493px;
-        width: 24%;
+        display: none;
     }
     .destinations{
         flex-direction: column;
@@ -510,16 +504,36 @@ html{
     .book__going{
         margin-right: 109px;
     }
+    .about{
+        flex-direction: column;
+    }
+    .about__text{
+        max-width: 94%;
+    }
     .about__subtitle{
         font-size: 9px;    
     }
     .about__title{
-        font-size: 14px;
+        font-size: 23px;
         line-height: 34px;
+        margin-top: 0px;
     }
     .about .swiper{
         margin-left: 40px;
         width: 80%;
+        margin-top: 32px;
+    }
+    .about .swiper-block__description{
+        font-size: 9px;
+    }
+    .about .swiper-block__name{
+        font-size: 14px;
+    }
+    .about .swiper-block__city{
+        font-size: 12px;
+    }
+    .subscribe__label::before{
+        display: none;
     }
     .compani{
         flex-direction: column;
@@ -544,5 +558,67 @@ html{
     .subscribe__img{
         display: none;
     }
+    .subscribe__decore{
+        display: none;
+    }
+    .subscribe__title{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .subscribe__input{
+        padding: 6px 6px 7px 7px;
+    }
+    .subscribe__btn{
+        margin-left: 2px;
+        padding: 11px 5px 14px 5px;
+    }
+    .contackts{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contackts__about{
+        flex-direction: column;
+    }
+    .contackts__description{
+        font-size: 11px;
+        margin-bottom: 25px;
+    }
+    .contackts__logo {
+        width: 51%;
+    }
+    .contackts-block__linktitle{
+        font-size: 17px;
+        line-height: 54.5%;
+    }
+    .contackts-block__linkab{
+        font-size: 12px;
+        line-height: 209%;
+    }
+    .contackts-block__linkc{
+        font-size: 12px;
+        line-height: 209%;    
+    }
+    .contackts-block__linkm{
+        font-size: 12px;
+        line-height: 209%;          
+    }
+    .contackts__about{
+        text-align: center;
+        width: 63%;    
+    }
+    .contackts-block__item-title{
+        margin-bottom: 12px;
+    }
+    .contackts__app{
+        font-size: 15px;
+    }
+    .contackts__discover{
+        margin-top: 30px;
+    }
+    .contackts__mail{
+        font-size: 9px;
+        padding-bottom: 14px;    
+    }
+
     
 }
