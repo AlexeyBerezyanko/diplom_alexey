@@ -1,0 +1,117 @@
+.contackts{
+    margin: 0 auto;
+    padding: 0 15p;
+    max-width: 1200px;
+    margin-top: 166px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 84px;
+    
+    &__title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 66px;
+        color: #181E4B;
+        padding-bottom: 19px;   
+    }
+    &__logo{
+        width: 18%;
+    }
+    &__app{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 124.5%;
+        letter-spacing: 0.005em;
+        color: #5E6282;
+        margin-bottom: 16px;
+        padding-top: 25px;    
+    }
+    &__description{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 124.5%;
+        color: #5E6282;    
+    }
+    &__about{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 50%;
+    }
+    &__btn{
+        border-radius: 50%;
+        border: none;
+        background: none;        
+    }
+    &__google{
+        border: none;
+        background: none;
+    }
+    &__apple{
+        border: none;
+        background: none;        
+    }
+    &__mail{
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 124.5%;
+        color: #5E6282;
+        padding-bottom: 30px;
+    }
+}
+.contackts-block{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    
+    &__linktitle{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 124.5%;    
+        color: #080809;
+        text-decoration: none;           
+    }
+    &__linkab{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 211.5%;
+        color: #5E6282;        
+        text-decoration: none;        
+    }
+    &__linkc{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 211.5%;
+        color: #5E6282;        
+        text-decoration: none;    
+    }
+    &__linkm{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: #5E6282;        
+        text-decoration: none;
+    }
+    &__item-title{
+        margin-bottom: 34px;    
+    }
+
+}
