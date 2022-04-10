@@ -89,9 +89,19 @@ html{
     margin-top: 112px;
 
     &__img{
-        mix-blend-mode: luminosity;
-              
+        mix-blend-mode: luminosity;              
     }
+    &__img:nth-child(4){
+        height: 34px;        
+        width: 100px;
+        
+    }
+    &__img:nth-child(3){
+        width: 100px;
+        height: 69px;
+        margin-top: 22px;
+    }
+
 
     &__img:hover{
         mix-blend-mode: normal;
@@ -172,6 +182,17 @@ html{
     }
     .book__trip{
         right: -46px;
+    }   
+    .about .swiper{
+        width: 64%;
+        margin-left: 102px;    
+    }
+    .subscribe__decore{
+        display: none;
+    }
+    .subscribe__messeg{
+        right: -6px;
+        top: -13px;
     }
 }
 //807px-925px
@@ -271,7 +292,70 @@ html{
     }
     .book__text{
         max-width: 78%;
-    }    
+    }
+    .about__title{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .about__subtitle{
+        font-size: 15px;
+    }
+    .about__text{
+        max-width: 25%;
+    }
+    .about .swiper{
+        width: 77%;
+        margin-right: 15px;
+        
+    }
+    .subscribe__decore{
+        display: none;
+    }
+    .subscribe__img{
+        display: none;
+    }
+    .subscribe__zero{
+        display: none;
+    }
+    .subscribe__title{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .contackts__description{
+        font-size: 12px;
+    }
+    .contackts__title{
+        font-size: 38px;
+        padding-bottom: 15px;
+    }
+    .contackts-block__linktitle {        
+        font-size: 16px;             
+    }
+    .contackts-block__linkab{
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .contackts-block__linkc{
+        font-size: 14px;
+        line-height: 150%;    
+    }
+    .contackts-block__linkm{
+        font-size: 14px;
+        line-height: 150%;    
+    }
+    .contackts__app{
+        font-size: 16px;
+        line-height: 75%;    
+    }
+    .contackts__google{
+        width: 50%;
+    }
+    .contackts__mail{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    
+
 }
 //466px-680px
 @media (min-width:466px) and (max-width:679.8px){
@@ -426,5 +510,39 @@ html{
     .book__going{
         margin-right: 109px;
     }
+    .about__subtitle{
+        font-size: 9px;    
+    }
+    .about__title{
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .about .swiper{
+        margin-left: 40px;
+        width: 80%;
+    }
+    .compani{
+        flex-direction: column;
+    }
+    .compani__img:nth-child(3) {
+        width: 110px;
+        height: 84px;
+        margin-top: 0px;
+    }
+    .compani__img:nth-child(4) {
+        width: 100px;
+        height: 44px;
+        margin-bottom: 34px;
+    }
+    .subscribe__messeg{
+        right: -3px;
+        top: -11px;
+    }
+    .subscribe__zero{
+        display: none;
+    }
+    .subscribe__img{
+        display: none;
+    }
+    
 }
-
